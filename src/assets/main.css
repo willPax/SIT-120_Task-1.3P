@@ -1,0 +1,83 @@
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  background-color: #aa1818;
+  
+
+   /* This ensures the container takes at least the full height of the viewport */ 
+}
+ 
+.content-wrapper {
+    flex: 1;
+   /* This makes the content take up all available space, pushing the footer to the bottom */ 
+    font-family: 'Arial', sans-serif;
+    margin: .1% 0; /* put a bit of margin at the top and bottom */
+    padding: 0 0%;
+    
+}
+
+.main-template{
+  background-color: rgb(206, 213, 216);
+  display: flex;
+  flex-direction: column;
+  /* padding: 1%; */
+  align-items: center;
+  padding: 2% 8%;
+}
+
+.main-section {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  /* margin: 0% 10%; */
+}
+
+.main-section h1 {
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .main-template{
+    flex-direction: row;
+  }
+
+}
+
+/* 
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+

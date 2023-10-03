@@ -1,0 +1,1 @@
+<template>this is the detailed project page</template>
